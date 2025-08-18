@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['sample_0',['sample',['../da/d6b/structiftFile.html#aa8677f06313fee5b34cca180f13ac35f',1,'iftFile::sample'],['../db/d54/structiftKnnNode.html#a103b1d8e8ca6df0951610d7205332cf4',1,'iftKnnNode::sample'],['../dd/dca/structiftGraphNode.html#a6c96ff37c62947e001e06be0d5e43329',1,'iftGraphNode::sample']]],
+  ['sampler_1',['sampler',['../d6/de8/structiftBagOfFeatures.html#a93609d599dbd0da4c98ae02e128c2514',1,'iftBagOfFeatures']]],
+  ['samplesperimage_2',['samplesPerImage',['../d6/de8/structiftBagOfFeatures.html#abbac44f4858d5770e22c07ad5556a2b2',1,'iftBagOfFeatures']]],
+  ['shape_3',['shape',['../dc/d68/structiftNumPyHeader.html#a940028f6dd3551058615572365f0932d',1,'iftNumPyHeader']]],
+  ['short_5fname_4',['short_name',['../d1/dd5/structiftCmdLineOpt.html#a0c59b9dfbb2c794fa5ddc07829788427',1,'iftCmdLineOpt']]],
+  ['sister_5',['sister',['../d3/d8e/structsister.html',1,'']]],
+  ['size_6',['size',['../dc/d68/structiftNumPyHeader.html#af02060c3f39bae8f0385ad5eeab5795d',1,'iftNumPyHeader']]],
+  ['smallspthreshold_7',['smallSpThreshold',['../db/d0f/structiftISFOptions.html#a6416aecd30ed521c21761e8d5d1fca72',1,'iftISFOptions']]],
+  ['spatial_5ffeats_8',['spatial_feats',['../dc/dab/structiftSlic.html#a3ef3e7fc83b0572d9b7c52bbef129f6b',1,'iftSlic']]],
+  ['status_9',['status',['../da/d6b/structiftFile.html#ad274acc92020ef01ec6753c6ffb74b91',1,'iftFile']]],
+  ['step_10',['step',['../dc/dab/structiftSlic.html#a3ac5a4d7c727ee4dd8580df3d0bf3550',1,'iftSlic']]],
+  ['str_5fval_11',['str_val',['../d1/dcc/structiftJNode.html#a497ff862a1137be56f77c783afa27fdb',1,'iftJNode']]],
+  ['stride_12',['stride',['../d6/de8/structiftBagOfFeatures.html#a77cda83ac9d3bbe91b4b4b2cabc99ff7',1,'iftBagOfFeatures']]],
+  ['string_13',['String',['../d2/d40/group__String.html',1,'']]],
+  ['stringdoublylinkedlist_14',['StringDoublyLinkedList',['../da/d84/group__StringDoublyLinkedList.html',1,'']]],
+  ['subdirs_15',['subdirs',['../d6/d6b/structiftDir.html#a3f6219b83621abf10ee3747c7809e29a',1,'iftDir']]],
+  ['suffix_16',['suffix',['../da/d6b/structiftFile.html#a74219b54e3ebfd0c46ff0bddb5967fb1',1,'iftFile']]],
+  ['supervised_17',['Supervised',['../de/db4/group__Supervised.html',1,'']]],
+  ['svm_18',['svm',['../db/dd6/structiftAdaPro.html#aeaa78905c60a7794a84e2e800fcf9207',1,'iftAdaPro']]],
+  ['svmmodel_19',['svmModel',['../d2/d2e/iftSVM_8h.html#ad5f48cfd441f640b62b5607c5b99f790',1,'iftSVM.h']]],
+  ['svmnode_20',['svmNode',['../d2/d2e/iftSVM_8h.html#aad53c0a029d110234742feadecce8d58',1,'iftSVM.h']]],
+  ['svmparameter_21',['svmParameter',['../d2/d2e/iftSVM_8h.html#aef7db7405988446e08890cc471c40504',1,'iftSVM.h']]],
+  ['svmproblem_22',['svmProblem',['../d2/d2e/iftSVM_8h.html#a062663ff12cd2c77854a728024aba80f',1,'iftSVM.h']]]
+];
