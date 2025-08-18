@@ -1,0 +1,16 @@
+{
+    "dFocalLength": 624.75,
+    "dSourceDetectorLength": 1168.4,
+    "AOR": 0.5,
+    "midPlane": 0.5,
+    "dXInc": 0.388,
+    "dYInc": 0.776,
+    "xsize": 512,
+    "ysize": 512,
+    "zsize": 192,
+    "xsizeProj": 503,
+    "ysizeProj": 183,
+    "numProj": 745,
+    "bwindow": 1,
+    "anglefile": "angle745.txt"
+}

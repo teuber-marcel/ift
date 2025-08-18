@@ -1,0 +1,17 @@
+{
+    "FEATS": {
+        "neg": "./mobio_feats.neg.z",
+        "male_gallery": "./mobio_feats.male.gallery.z",
+        "female_gallery": "./mobio_feats.female.gallery.z",
+        "male_probe": "./mobio_feats.male.probe.z",
+        "female_probe": "./mobio_feats.female.probe.z"
+    },
+
+    "LABELS": {
+        "neg": "./mobio_labels.neg.z",
+        "male_gallery": "./mobio_labels.male.gallery.z",
+        "female_gallery": "./mobio_labels.female.gallery.z",
+        "male_probe": "./mobio_labels.male.probe.z",
+        "female_probe": "./mobio_labels.female.probe.z"  
+    }
+}

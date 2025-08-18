@@ -1,0 +1,18 @@
+{
+	"nseeds_per_label_per_iteration": 1,
+	"min_safe_distance_to_border": 2,
+	"max_marker_width": 5,
+	"max_marker_length": 10,
+	"stopping_criterion": "STOP_BY_DICE",
+	"stopping_threshold": 0.935000,
+	"secondary_stopping_criterion": "STOP_BY_NUM_ITERATIONS",
+	"secondary_stopping_threshold": 100000,
+	"resuming_type": "GEODESIC_MARKER",
+	"border_dilation_radius": 5,
+	"min_marker_radius": 2,
+	"max_marker_radius": 10,
+	"gradient_type": "GAUSSIAN_ENHANCED",
+	"gradient_combination_alpha": 0.8,
+	"measure_reconstruction_accuracy": 1,
+	"normalization_value": 4095
+}

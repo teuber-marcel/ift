@@ -1,0 +1,12 @@
+{
+    "n_pos_labels": 50,
+    "n_imgs_per_pos_label": 50,
+    "n_neg_imgs": 25000,
+    "pos_train_perc": 0.5,
+    "n_iters": 10,
+
+    "dataset": "~/workspace/bases/CASIA_IFT/casia_feats.z",
+    "labels": "~/workspace/bases/CASIA_IFT/casia_labels.z",
+
+    "out_dir": "~/workspace/experiments/MSc/journal-prl/casia/03/"
+}

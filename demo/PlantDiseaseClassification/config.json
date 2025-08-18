@@ -1,0 +1,14 @@
+{
+	"tile_xsize": 50,
+	"tile_ysize": 50,
+	"xstride": 25,
+	"ystride": 25,
+        "perc_training": 0.2,
+	"perc_of_pixels_labeled_as_disease_threshold": 0.1,
+        "volume": 500000,
+        "likelihood_threshold": 0.5,
+        "distance_function_number": 10, 
+	"BIC": {
+		"bins_per_band": 4
+	}
+}

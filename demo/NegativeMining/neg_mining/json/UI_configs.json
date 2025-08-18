@@ -1,0 +1,19 @@
+{
+    "method": ["LDA", "PCA"],
+
+    "memory_limit": 3221225472,
+
+    "dataset": "~/workspace/bases/pubfig83/200x200/feat_vectors/pubfig83_feats.z",
+    "labels": "~/workspace/bases/pubfig83/200x200/feat_vectors/pubfig83_labels.z",
+
+    "SPLIT": {
+        "neg_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/neg_ids.txt",
+        "pos_train_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos_train_ids.txt",
+        "pos_test_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos_test_ids.txt"
+    },
+
+    "save": {
+        "pos_scores": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos_scores.it01.npy",
+        "neg_scores": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/neg_scores.it01.npy"
+    }
+}

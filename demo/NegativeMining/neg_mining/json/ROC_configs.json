@@ -1,0 +1,127 @@
+{
+    "ROC_GRAPHS": {
+        "PubFig83": {
+            "active": true,
+            "plot_sem": false,
+
+            "figure": {
+                "figsize": [10, 5]
+            },
+
+            "title": {
+                "label": "PubFig83",
+                "fontdict": {
+                    "fontsize": 16,
+                    "weight": "normal",
+                    "family": "Times New Roman"
+                }
+            },
+
+            "grid": true,
+
+            "xlabel": {
+                "label": "false acceptance rate (%)",
+                "fontdict": {
+                    "fontsize": 16,
+                    "weight": "normal",
+                    "family": "Times New Roman"
+                }
+            },
+
+            "xlim": {
+                "xmin": 1,
+                "xmax": 100
+            },
+
+            "xscale": "log",
+            
+            "xticks": {
+                "ticks": [0.01, 0.1, 1, 10, 100],
+                "labels": ["0.01", "0.1", "1", "10", "100"],
+                "n_ticks": 5,
+                "endpoint": true,
+
+                "fontdict": {
+                    "fontsize": 16,
+                    "weight": "normal",
+                    "family": "Times New Roman"
+                }
+            },
+
+            "ylabel": {
+                "label": "correct acceptance rate (%)",
+                "fontdict": {
+                    "fontsize": 16,
+                    "weight": "normal",
+                    "family": "Times New Roman"
+                }
+            },
+
+            "ylim": {
+                "ymin": 0,
+                "ymax": 100
+            },
+
+            "yscale": "linear",
+
+            "yticks": {
+                "n_ticks": 5,
+                "endpoint": true,
+
+                "fontdict": {
+                    "fontsize": 16,
+                    "weight": "normal",
+                    "family": "Times New Roman"
+                }
+            },
+
+            "legend": {
+                "loc": "lower right",
+                "title": "system type",
+                "title_fontsize": 12,
+                "text_fontsize": 12,
+                "family": "Times New Roman"
+            },
+
+            "savefig": {
+                "fname": "test_pubfig83.pdf",            
+                "dpi": 100,
+                "format": "pdf"
+            },
+
+            "curves": {
+                "01-all_negs": {
+                    "active": true,
+                    "plot": {
+                        "label": "Exp. Upper Bound",  
+                        "color": "#0000ff",
+                        "linewidth": 1.0,
+                        "linestyle": "-",
+                        "marker": "^",
+                        "markersize": 8,
+                        "markevery": "uniform",
+                        "n_marks_per_tick_interval": 5
+                    },
+                    "pos_files": ["~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos.random_NM.time(1000000.00).perc(1.00).npy"],
+                    "neg_files": ["~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/neg.random_NM.time(1000000.00).perc(1.00).npy"]
+                },
+
+                "02-Random": {
+                    "active": true,
+                    "plot": {
+                        "label": "Random",  
+                        "color": "#ff0000",
+                        "linewidth": 1.0,
+                        "linestyle": "-",
+                        "marker": "s",
+                        "markersize": 8,
+                        "markevery": "uniform",
+                        "n_marks_per_tick_interval": 5
+                    },
+                    "pos_files": ["~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos.random_NM.time(6.00).perc(0.05).npy"],
+                    "neg_files": ["~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/neg.random_NM.time(6.00).perc(0.05).npy"]
+                }
+            }
+        }
+    }
+}

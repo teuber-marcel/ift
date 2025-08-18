@@ -1,0 +1,13 @@
+{
+    "train_file_basename": "train.csv",
+    "label_name": "cerebellum",
+    "seed_estimation_config_file": "resuming_config.json",
+    "experiment_id": "001",
+    "COMPUTE_SEEDS": 1,
+    "model_config_file": "seed_object_model_config.json",
+    "model_output_basename": "model",
+    "CREATE_SEED_OBJECT_MODEL": 1,		
+    "test_file_basename": "test.csv",
+    "TEST_SEGMENTATION": 1
+
+}

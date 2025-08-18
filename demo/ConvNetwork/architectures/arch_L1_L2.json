@@ -1,0 +1,28 @@
+{
+  "n_layers":2,
+  "xsize":200,
+  "ysize":200,
+  "zsize":1,
+  "n_bands":1,
+  "normalization_size": 9,
+
+  "layer1":{
+    "filter_size":3,
+    "n_filter":64,
+    "activation":0,
+    "pool_size":7,
+    "stride_size":2,
+    "pool_alpha":1,
+    "normalization_size": 5
+  },
+
+  "layer2":{
+    "filter_size":5,
+    "n_filter":128,
+    "activation":0,
+    "pool_size":5,
+    "stride_size":2,
+    "pool_alpha":1,
+    "normalization_size": 7
+  }
+}

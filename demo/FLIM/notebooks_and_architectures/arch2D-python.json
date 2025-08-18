@@ -1,0 +1,45 @@
+{
+    "features": {
+        "type": "sequential",
+        "layers": {
+            "block1": {
+                "type": "sequential",
+                "layers": {
+                    "m-norm1": {
+                        "operation": "m_norm2d",
+                        "params": {
+                            "epsilon": 0.01
+                        }
+                    },
+                    "conv1": {
+                        "operation": "conv2d",
+                        "params": {
+                            "kernel_size": [5,5],
+                            "dilation": [1,1],
+                            "out_channels": 75,
+                            "padding": [2,2],
+                            "stride": 1,
+                            "bias": false,
+                            "use_pca": false,
+                            "number_of_kernels_per_marker": 8
+                        }
+                    },
+                    "relu1": {
+                        "operation": "relu",
+                        "params": {
+                            "inplace": true
+                        }
+                    },
+                    "pool1": {
+                        "operation": "max_pool2d",
+                        "params": {
+                            "kernel_size": [3,3],
+                            "stride": 2,
+                            "padding": [1,1]
+                        }
+                    }
+                }
+            }
+	}	
+    }
+}

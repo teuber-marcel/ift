@@ -1,0 +1,38 @@
+{
+  "n_layers":[1,2,3],
+  "xsize":[200, 256],
+  "ysize":[200, 256],
+  "zsize":[1],
+  "n_bands":[1],
+  "normalization_size": [3,5,7,9],
+
+  "layer1":{
+    "filter_size":[3,5,7,9],
+    "n_filter":[32,64,128,256],
+    "activation":[0,1],
+    "pool_size":[3,5,7,9],
+    "stride_size":[1,2,3],
+    "pool_alpha":[1,10,100],
+    "normalization_size": [3,5,7,9]
+  },
+
+  "layer2":{
+    "filter_size":[3,5,7,9],
+    "n_filter":[32,64,128],
+    "activation":[0,1],
+    "pool_size":[3,5,7,9],
+    "stride_size":[1,2,3],
+    "pool_alpha":[1,10,100],
+    "normalization_size":[3,5,7,9]
+  },
+
+  "layer3":{
+    "filter_size":[3,5,7,9],
+    "n_filter":[32,64,128,256,512],
+    "activation":[0,1],
+    "pool_size":[3,5,7,9],
+    "stride_size":[1,2,3],
+    "pool_alpha":[1,10,100],
+    "normalization_size": [3,5,7,9]
+  }
+}

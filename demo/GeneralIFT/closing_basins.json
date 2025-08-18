@@ -1,0 +1,5 @@
+{
+    "operator": "closing_basins",
+    "input_image": "images/figure2.pgm",
+    "output_image": "result.pgm"
+}

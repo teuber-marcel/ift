@@ -1,0 +1,7 @@
+{
+    "operator": "watershed_from_gray_marker",
+    "input_image": "images/figure1.pgm",
+    "criterion": "height",
+    "threshold": 30,
+    "output_image": "result.ppm"
+}

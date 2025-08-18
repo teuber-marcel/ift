@@ -1,0 +1,83 @@
+{
+    "features": {
+        "type": "sequential",
+        "layers": {
+            "block1": {
+                "type": "sequential",
+                "layers": {
+                    "m-norm1": {
+                        "operation": "m_norm3d",
+                        "params": {
+                            "epsilon": 0.001
+                        }
+                    },
+                    "conv1": {
+                        "operation": "conv3d",
+                        "params": {
+                            "kernel_size": [3,3,3],
+                            "dilation": [1,1,1],
+                            "out_channels": 25,
+                            "padding": [1,1,1],
+                            "stride": 1,
+                            "bias": false,
+                            "use_pca": false,
+                            "number_of_kernels_per_marker": 5
+                        }
+                    },
+                    "relu1": {
+                        "operation": "relu",
+                        "params": {
+                            "inplace": true
+                        }
+                    },
+                    "pool1": {
+                        "operation": "max_pool3d",
+                        "params": {
+                            "kernel_size": [3,3,3],
+                            "stride": 2,
+                            "padding": [1,1,1]
+                        }
+                    }
+                }
+            },
+	    "block2": {
+                "type": "sequential",
+                "layers": {
+                    "m-norm2": {
+                        "operation": "m_norm3d",
+                        "params": {
+                            "epsilon": 0.001
+                        }
+                    },
+                    "conv2": {
+                        "operation": "conv3d",
+                        "params": {
+                            "kernel_size": [3,3,3],
+                            "dilation": [1,1,1],
+                            "out_channels": 100,
+                            "padding": [1,1,1],
+                            "stride": 1,
+                            "bias": false,
+                            "use_pca": false,
+                            "number_of_kernels_per_marker": 20
+                        }
+                    },
+                    "relu2": {
+                        "operation": "relu",
+                        "params": {
+                            "inplace": true
+                        }
+                    },
+                    "pool2": {
+                        "operation": "max_pool3d",
+                        "params": {
+                            "kernel_size": [3,3,3],
+                            "stride": 2,
+                            "padding": [1,1,1]
+                        }
+                    }
+                }
+            }
+	}	
+    }
+}

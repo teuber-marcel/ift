@@ -1,0 +1,5 @@
+{
+    "operator": "classic_watershed",
+    "input_image": "images/figure1.pgm",
+    "output_image": "result.ppm"
+}

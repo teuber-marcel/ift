@@ -1,0 +1,33 @@
+{
+    "result_dir": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01",
+    "log_filename": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/log01.txt",
+    "memory_limit": 3221225472,
+
+    "dataset": "~/workspace/bases/pubfig83/200x200/feat_vectors/pubfig83_feats.z",
+    "labels": "~/workspace/bases/pubfig83/200x200/feat_vectors/pubfig83_labels.z",
+    
+
+    "SPLIT": {
+        "method": "FIXED",
+        "save_splitted_set_ids": false,
+
+        "NORMAL": {
+            "n_neg_classes": 60,
+            "n_pos_classes": 23,
+            "n_imgs_per_class": 100,
+            "pos_train_perc": 0.9
+        },
+
+        "FIXED": {
+            "neg_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/neg_ids.txt",
+            "pos_train_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos_train_ids.txt",
+            "pos_test_set": "~/workspace/experiments/MSc/review/pubfig83/user_specific/it01/pos_test_ids.txt"
+        }
+    },
+
+    "NEG_MINING": {
+        "neg_train_percs": [0.05],
+        "max_NM_times": [5.0],
+        "methods": ["random_NM"]
+    }
+}

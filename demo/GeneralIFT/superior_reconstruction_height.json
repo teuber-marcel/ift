@@ -1,0 +1,7 @@
+{
+    "operator": "superior_reconstruction",
+    "input_image": "images/figure1.pgm",
+    "criterion": "height",
+    "threshold": 30,
+    "output_image": "result.pgm"
+}
