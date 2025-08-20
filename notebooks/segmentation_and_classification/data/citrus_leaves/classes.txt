@@ -1,0 +1,5 @@
+1 blackspot
+2 canker 
+3 greening
+4 healthy
+5 melanose
